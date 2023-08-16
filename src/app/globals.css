@@ -2,26 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    @apply antialiased;
+    margin: 0;
+}
+
+
+.secondary-font {
+    font-family: "Montserrat", sans-serif;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --shadow: 10px 10px 19px #1c1e22,
+    -10px -10px 19px #262a2e;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.card {
+    box-shadow: var(--shadow);
+    @apply rounded-xl
+
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hover {
+    @apply transition-all duration-500 ease-in-out;
+
+}
+
+.hover:hover {
+    @apply -translate-y-2;
+}
+
+
+.btn-action {
+    box-shadow: var(--shadow);
+    @apply rounded p-5
 }
