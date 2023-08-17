@@ -1,26 +1,13 @@
-"use client"
-import React, {useEffect} from 'react';
-import {gsap} from "gsap";
-import {ScrollTrigger} from "gsap/ScrollTrigger";
-import Image from "next/image";
+
 import {portfolio} from "../../../constants";
 import PortfolioItem from "@/components/home/PortfolioItem";
+import Divider from "@/components/common/Divider";
 
-gsap.registerPlugin(ScrollTrigger);
+
 const Portfolio = () => {
 
-    useEffect(() => {
-        gsap.to(".portfolio-section", {
-            opacity: 1,
-            duration: .5,
-            scrub: 3,
-            transform: "translateY(0px)",
-            scrollTrigger: ".portfolio",
-        });
-
-    }, [])
     return (
-        <div className={'h-screen portfolio-section opacity-0 translate-y-24 mt-10'}>
+        <div className={'portfolio-section opacity-0 translate-y-24 mt-10'}>
 
             <h4 className={'text-md lg:text-lg text-primary/75 text-center font-thin uppercase tracking-wider'}>Over 5+ years of
                 experience</h4>
@@ -31,6 +18,9 @@ const Portfolio = () => {
             </div>
 
 
+
+
+            <Divider/>
         </div>
     );
 };

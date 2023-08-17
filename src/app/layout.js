@@ -2,6 +2,7 @@ import './globals.css'
 import {Inter, Poppins} from 'next/font/google'
 import Navbar from "@/components/Navbar";
 import {SmoothScrollProvider} from "@/context/SmoothScrollProvider";
+import Footer from "../components/common/Footer";
 
 const inter = Poppins({subsets: ['latin'], weight: "400"})
 
@@ -15,14 +16,15 @@ export default function RootLayout({
                                    }) {
     return (
         <html lang="en">
-        <body className={`${inter.className} bg-bg `}>
+        <body className={`${inter.className} bg-bg container lg:px-20 m-auto `}>
         <Navbar/>
         <SmoothScrollProvider>
-            <main className={'container m-auto'} id="my-scroll">
+            <main className={''} id="my-scroll">
                 {children}
 
             </main>
         </SmoothScrollProvider>
+        <Footer/>
 
         </body>
         </html>

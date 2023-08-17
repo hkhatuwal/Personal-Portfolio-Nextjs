@@ -40,3 +40,13 @@
     box-shadow: var(--shadow);
     @apply rounded p-5
 }
+
+
+nav a{
+    @apply uppercase text-primary font-light
+}
+
+
+.main-shadow{
+    box-shadow: -10px -10px 19px #262a2e,10px 10px 19px #1c1e22;
+}
