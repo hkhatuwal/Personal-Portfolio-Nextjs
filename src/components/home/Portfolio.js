@@ -7,7 +7,7 @@ import Divider from "@/components/common/Divider";
 const Portfolio = () => {
 
     return (
-        <div className={'portfolio-section opacity-0 translate-y-24 mt-10'}>
+        <div className={'portfolio-section opacity-0 translate-y-24 mt-10'} id={'portfolio'}>
 
             <h4 className={'text-md lg:text-lg text-primary/75 text-center font-thin uppercase tracking-wider'}>Over 5+ years of
                 experience</h4>

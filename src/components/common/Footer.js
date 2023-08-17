@@ -30,9 +30,10 @@ const Footer = () => {
                   <h1 className={'text-lg text-primary uppercase'}>Quick Links</h1>
 
                   <ul className={'flex gap-4 flex-col mt-6'}>
-                      <li className={'text-white/60'}><Link href={'/'}>Portfolio</Link></li>
-                      <li className={'text-white/60'}><Link href={'/'}>Contact Us</Link></li>
-                      <li className={'text-white/60'}><Link href={'/'}>Testimonial</Link></li>
+                      <li className={'text-white/60'}><Link href={'/#about'}>About us</Link></li>
+                      <li className={'text-white/60'}><Link href={'/#portfolio'}>Portfolio</Link></li>
+                      <li className={'text-white/60'}><Link href={'/#skills'}>Skills</Link></li>
+                      <li className={'text-white/60'}><a href={"mailto:prajapathimanshu51@gmail.com"}>Contact Us</a></li>
 
                   </ul>
               </div>

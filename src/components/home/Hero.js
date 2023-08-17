@@ -3,7 +3,7 @@ import {heroItems} from "../../../constants";
 import HeroItem from "@/components/home/HeroItem";
 const Hero = () => {
     return (
-        <div className="flex  justify-center items-center lg:h-[90vh] w-full  ">
+        <div className="flex  justify-center items-center lg:h-[90vh] w-full  " id={'about'}>
             <div className="flex flex-col-reverse  lg:flex-row w-full  gap-11  ">
 
                 {/* Text details */}
