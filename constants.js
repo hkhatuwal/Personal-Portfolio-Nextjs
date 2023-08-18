@@ -75,9 +75,7 @@ export const skills = [
     {
         fromColor: '#ef287e', toColor: '#c91903', title: "Dart", percent: 97
     },
-    {
-        fromColor: '#ef287e', toColor: '#c91903', title: "HTML", percent: 99
-    },
+
     {
         fromColor: '#ef287e', toColor: '#c91903', title: "CSS", percent: 91
     },

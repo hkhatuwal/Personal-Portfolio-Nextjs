@@ -1,6 +1,6 @@
 import './globals.css'
 import {Inter, Poppins} from 'next/font/google'
-import Navbar from "@/components/Navbar";
+import Navbar from "../components/Navbar";
 import {SmoothScrollProvider} from "@/context/SmoothScrollProvider";
 import Footer from "../components/common/Footer";
 
@@ -17,9 +17,10 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={`${inter.className} bg-bg container lg:px-20 m-auto `}>
-        <Navbar/>
         <SmoothScrollProvider>
-            <main className={''} id="my-scroll">
+
+        <Navbar/>
+            <main  id="my-scroll">
                 {children}
 
             </main>

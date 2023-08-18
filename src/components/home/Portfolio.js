@@ -14,7 +14,7 @@ const Portfolio = () => {
             <h1 className={'text-5xl lg:text-6xl text-center font-extrabold text-white/80 tracking-wider mt-5'}>My Portfolio</h1>
 
             <div className="portfolios w-full mt-10">
-                {portfolio.map((item)=>PortfolioItem({...item}))}
+                {portfolio.map((item,index)=>PortfolioItem({...item,index}))}
             </div>
 
 
