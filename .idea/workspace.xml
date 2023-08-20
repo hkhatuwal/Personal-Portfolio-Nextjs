@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="" />
+    <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/opengraph-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/Personal/NextJs/portfolio/public/images/portfolio",
+    "last_opened_file_path": "D:/Projects/Personal/NextJs/portfolio/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Personal\NextJs\portfolio\src\app" />
       <recent name="D:\Projects\Personal\NextJs\portfolio\public\images\portfolio" />
       <recent name="D:\Projects\Personal\NextJs\portfolio\public\images" />
     </key>
@@ -81,6 +86,7 @@
       <workItem from="1692334024504" duration="8749000" />
       <workItem from="1692458774753" duration="731000" />
       <workItem from="1692460471629" duration="113000" />
+      <workItem from="1692511916644" duration="846000" />
     </task>
     <servers />
   </component>
