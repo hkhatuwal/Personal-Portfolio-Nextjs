@@ -19,7 +19,8 @@ const config: Config = {
         bg:"#212428",
         bg2:"linear-gradient(145deg, #1e2024, #23272b)",
         primary:"#EF750D",
-        portfolio_image_bg:"#f1f0ec"
+        portfolio_image_bg:"#f1f0ec",
+        dark:"#1d1d1d"
       },
       fontFamily: {
         secondary: [

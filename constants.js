@@ -1,16 +1,20 @@
 import {IoDocumentTextOutline, IoLocationSharp, IoMailOutline} from "react-icons/io5";
+import {BsFillGrid3X3GapFill, BsGearFill} from "react-icons/bs";
+import {AiOutlineBarChart} from "react-icons/ai";
 
 
 export const heroItems = [{
     title: "Full stack developer", Icon: <IoDocumentTextOutline/>
 }, {
-    title: "contact@fleecoder.com", Icon: <IoMailOutline/>
+    title: "contact@devroox.com", Icon: <IoMailOutline/>
 }, {
     title: "Alwar,Rajasthan India", Icon: <IoLocationSharp/>
 }]
 
 
-export const portfolio = [{
+export const portfolio =
+
+    [{
     title: "Inventory Management System",
     date: "2023 - Current",
     desc: "Inventory management system is for razererp to manage their inventory",
@@ -89,4 +93,28 @@ export const skills = [
     {
         fromColor: '#ef287e', toColor: '#c91903', title: "HTML", percent: 99
     },
+]
+
+
+
+export  const adminMenuItems=[
+    {
+        title:"Dashboard",
+        icon:AiOutlineBarChart,
+        slug:'/admin/dashboard'
+    },
+
+    {
+        title:"Portfolio",
+        icon:BsFillGrid3X3GapFill,
+        slug:'/admin/portfolio'
+
+    },
+    {
+        title:"Settings",
+        icon:BsGearFill,
+        slug:'/admin/settings'
+
+    }
+
 ]

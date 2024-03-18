@@ -1,7 +1,7 @@
 
-import {portfolio} from "../../../constants";
-import PortfolioItem from "@/components/home/PortfolioItem";
-import Divider from "@/components/common/Divider";
+import {portfolio} from "../../../../constants";
+import PortfolioItem from "src/components/front/home/PortfolioItem";
+import Divider from "src/components/common/Divider";
 
 
 const Portfolio = () => {

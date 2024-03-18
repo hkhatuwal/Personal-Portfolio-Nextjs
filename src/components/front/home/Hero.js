@@ -1,6 +1,6 @@
 import React from 'react';
-import {heroItems} from "../../../constants";
-import HeroItem from "@/components/home/HeroItem";
+import {heroItems} from "../../../../constants";
+import HeroItem from "src/components/front/home/HeroItem";
 const Hero = () => {
     return (
         <div className="flex  justify-center items-center lg:h-[90vh] w-full  " id={'about'}>
@@ -23,12 +23,12 @@ const Hero = () => {
                             {heroItems.map((item) =>HeroItem(item))}
                         </ul>
                     </div>
-                    <div className={"card p-10 hero-bottom-details"}>
+                    <div className={"card p-5 md:p-10 hero-bottom-details"}>
                         <h4 className={'text-white/70 font-light'}>Download my curriculum vitae:</h4>
                         <div className="flex flex-row mt-3 justify-between">
-                            <button className={'bg-bg p-3 btn-action text-xs text-primary  tracking-widest hover '}>DOWNLOAD C.V
+                            <button className={'bg-bg btn-action text-xs text-primary  tracking-widest hover '}>DOWNLOAD C.V
                             </button>
-                            <button className={'bg-bg btn-action p-3 text-xs text-primary  tracking-widest hover '}>CONTACT ME
+                            <button className={'bg-bg   btn-action  text-xs text-primary  tracking-widest hover '}>CONTACT ME
                             </button>
                         </div>
                     </div>

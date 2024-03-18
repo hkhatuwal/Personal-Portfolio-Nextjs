@@ -2,7 +2,7 @@
 import React, {useContext} from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import {SmoothScrollContext} from "../context/SmoothScrollProvider";
+import {SmoothScrollContext} from "../../context/SmoothScrollProvider";
 import {useRouter} from 'next/navigation'
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link href={"#about"} onClick={() => scrollToItem(event)} className={'hover'}>About</Link>
                 <Link href={"#portfolio"} onClick={() => scrollToItem(event)} className={'hover'}>Portfolio</Link>
                 <Link href={"#skils"} onClick={() => scrollToItem(event)} className={'hover'}>Skills</Link>
-                <a href={"mailto:prajapathimanshu51@gmail.com"} className={'hover'}>Contact Us</a>
+                <a href={"mailto:contact@devroox.com"} className={'hover'}>Contact Us</a>
 
             </ul>
         </nav>

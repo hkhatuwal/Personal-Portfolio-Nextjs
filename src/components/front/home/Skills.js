@@ -1,8 +1,8 @@
 import React from 'react';
-import {portfolio, skills} from "../../../constants";
-import PortfolioItem from "@/components/home/PortfolioItem";
-import SkillItem from "@/components/home/SkillItem";
-import Divider from "@/components/common/Divider";
+import {portfolio, skills} from "../../../../constants";
+import PortfolioItem from "src/components/front/home/PortfolioItem";
+import SkillItem from "src/components/front/home/SkillItem";
+import Divider from "src/components/common/Divider";
 
 const Skills = () => {
     return (
