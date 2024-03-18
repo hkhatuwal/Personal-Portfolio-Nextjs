@@ -6,7 +6,7 @@ import Footer from "../../components/common/Footer";
 const inter = Poppins({subsets: ['latin'], weight: "400"})
 
 export const metadata = {
-    title: 'Fleecoder',
+    title: 'Devroox',
     description: 'Website and Mobile app developmentt',
     openGraph: {
         images: '/opengraph-image.png',

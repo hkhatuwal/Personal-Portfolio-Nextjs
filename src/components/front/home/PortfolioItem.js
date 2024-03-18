@@ -17,7 +17,7 @@ const PortfolioItem = ({date,title,subtitle,desc,image,index}) => {
                 <h3 className={'text-xl text-[#878e99]'}>{desc}</h3>
 
             </div>
-            <button className={'btn-action text-primary'}>CONTACT - ME</button>
+            <a className={'btn-action text-primary'} href={"mailto:contact@devroox.com"}  >CONTACT - ME</a>
         </div>
 
     );
