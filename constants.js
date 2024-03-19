@@ -14,20 +14,28 @@ export const heroItems = [{
 
 export const portfolio =
 
-    [{
-    title: "Inventory Management System",
-    date: "2023 - Current",
-    desc: "Inventory management system is for razererp to manage their inventory",
-    subtitle: "Windows/Mac  - Flutter",
-    image: "/images/portfolio/inventory.png",
-},
-    {
-        title: "NFT Landing Page ",
-        date: "2023 - Current",
-        desc: "Nft landing page for a new nft startup",
-        subtitle: "Web/Mobile  - Next Js | Tailwind css",
-        image: "/images/portfolio/nft.png",
-    }, {
+    [
+        {
+            title: "Inventory Management System",
+            date: "2023 - Current",
+            desc: "Inventory management system is for razererp to manage their inventory",
+            subtitle: "Windows/Mac  - Flutter",
+            image: "/images/portfolio/inventory.png",
+        },
+        {
+            title: "60 Words News App",
+            date: "2023 - Current",
+            desc: "Local News app that describes the news in just 60 words like inshorts . Which shows you all news nearby to you ",
+            subtitle: "Android/Ios  - Flutter",
+            image: "/images/portfolio/localnewsap.png",
+        },
+        {
+            title: "NFT Landing Page ",
+            date: "2023 - Current",
+            desc: "Nft landing page for a new nft startup",
+            subtitle: "Web/Mobile  - Next Js | Tailwind css",
+            image: "/images/portfolio/nft.png",
+        }, {
         title: "Pioneer Cares",
         date: "2022 - Previous",
         desc: "App for cable technicians to reward on purchase of the table with coupons",
@@ -51,15 +59,16 @@ export const portfolio =
         desc: "Cricket Prediction Mobile app with affiliate and news section",
         subtitle: "Android - Java,Kotlin ",
         image: "/images/portfolio/cricnet.png",
-    }, {
-        title: "Movies App | Youtube similar",
-        date: "2020 - 2021 ",
-        desc: "Movies app for playing youtube videos fetch from custom laravel backend",
-        subtitle: "Android - Java,Kotlin ",
-        image: "/images/portfolio/movies_app.png",
     },
+        {
+            title: "Movies App | Youtube similar",
+            date: "2020 - 2021 ",
+            desc: "Movies app for playing youtube videos fetch from custom laravel backend",
+            subtitle: "Android - Java,Kotlin ",
+            image: "/images/portfolio/movies_app.png",
+        },
 
-]
+    ]
 
 
 export const skills = [
@@ -84,6 +93,9 @@ export const skills = [
         fromColor: '#ef287e', toColor: '#c91903', title: "PHP", percent: 96
     },
     {
+        fromColor: '#ef287e', toColor: '#c91903', title: "LARAVEL", percent: 95
+    },
+    {
         fromColor: '#ef287e', toColor: '#c91903', title: "Dart", percent: 97
     },
 
@@ -96,24 +108,23 @@ export const skills = [
 ]
 
 
-
-export  const adminMenuItems=[
+export const adminMenuItems = [
     {
-        title:"Dashboard",
-        icon:AiOutlineBarChart,
-        slug:'/admin/dashboard'
+        title: "Dashboard",
+        icon: AiOutlineBarChart,
+        slug: '/admin/dashboard'
     },
 
     {
-        title:"Portfolio",
-        icon:BsFillGrid3X3GapFill,
-        slug:'/admin/portfolio'
+        title: "Portfolio",
+        icon: BsFillGrid3X3GapFill,
+        slug: '/admin/portfolio'
 
     },
     {
-        title:"Settings",
-        icon:BsGearFill,
-        slug:'/admin/settings'
+        title: "Settings",
+        icon: BsGearFill,
+        slug: '/admin/settings'
 
     }
 

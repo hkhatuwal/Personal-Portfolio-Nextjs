@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/(front)/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(front)/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/front/home/PortfolioItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/PortfolioItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/portfolio/localnewsap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Projects/Personal/NextJs/portfolio/src/app",
+    "last_opened_file_path": "D:/Projects/Personal/NextJs/portfolio/public/images/portfolio",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,10 +54,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Personal\NextJs\portfolio\public\images\portfolio" />
       <recent name="D:\Projects\Personal\NextJs\portfolio\src\app" />
       <recent name="D:\Projects\Personal\NextJs\portfolio\public\images" />
       <recent name="D:\Projects\Personal\NextJs\portfolio\src\app\(front)" />
-      <recent name="D:\Projects\Personal\NextJs\portfolio\public\images\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Personal\NextJs\portfolio\src\components\admin\portfolio" />
@@ -99,7 +99,8 @@
       <workItem from="1693729736548" duration="2466000" />
       <workItem from="1693988084084" duration="2708000" />
       <workItem from="1694108518384" duration="179000" />
-      <workItem from="1710742299177" duration="1862000" />
+      <workItem from="1710742299177" duration="2524000" />
+      <workItem from="1710826690437" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -116,7 +117,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/constants.js</url>
-          <line>30</line>
+          <line>38</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
