@@ -20,13 +20,10 @@ export default function RootLayout({
         <html lang="en">
         <body className={`${inter.className} bg-bg container lg:px-20 m-auto `}>
         <SmoothScrollProvider>
-
             <Navbar/>
             <main  id="my-scroll">
                 {children}
-
             </main>
-
         </SmoothScrollProvider>
         <Footer/>
         </body>

@@ -9,8 +9,6 @@ export default function Home() {
         <>
             <Hero/>
             <Portfolio/>
-            <Skills/><Hero/>
-            <Portfolio/>
             <Skills/>
 
         </>
