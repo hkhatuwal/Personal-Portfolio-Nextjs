@@ -52,7 +52,6 @@ const PortFolioList = () => {
                         <label className={'text-bg font-semibold'}>Thumbnail</label>
 
 
-
                         <ImagePicker image={selectedPortFolio.image} onImageDelete={()=>setSelectedPortfolio({...selectedPortFolio,image:null})}/>
                     </div>
 

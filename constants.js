@@ -22,6 +22,14 @@ export const portfolio =
             subtitle: "Windows/Mac  - Flutter",
             image: "/images/portfolio/inventory.png",
         },
+
+        {
+            title: "Trackit Vehicle Tracking System",
+            date: "2022 - Current",
+            desc: "Mobile App for tracking system using flutter ",
+            subtitle: "Android/Ios  - Flutter",
+            image: "/images/portfolio/trackit.gif",
+        },
         {
             title: "60 Words News App",
             date: "2023 - Current",
@@ -29,13 +37,7 @@ export const portfolio =
             subtitle: "Android/Ios  - Flutter",
             image: "/images/portfolio/localnewsap.png",
         },
-        {
-            title: "NFT Landing Page ",
-            date: "2023 - Current",
-            desc: "Nft landing page for a new nft startup",
-            subtitle: "Web/Mobile  - Next Js | Tailwind css",
-            image: "/images/portfolio/nft.png",
-        }, {
+       {
         title: "Pioneer Cares",
         date: "2022 - Previous",
         desc: "App for cable technicians to reward on purchase of the table with coupons",
@@ -67,7 +69,13 @@ export const portfolio =
             subtitle: "Android - Java,Kotlin ",
             image: "/images/portfolio/movies_app.png",
         },
-
+        {
+            title: "NFT Landing Page ",
+            date: "2023 - Current",
+            desc: "Nft landing page for a new nft startup",
+            subtitle: "Web/Mobile  - Next Js | Tailwind css",
+            image: "/images/portfolio/nft.png",
+        },
     ]
 
 

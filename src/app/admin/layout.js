@@ -18,7 +18,6 @@ export default function DashboardLayout({
         <div className={'p-3 w-full '}>
             <ModalProvider>
                 {children}
-
             </ModalProvider>
         </div>
 
