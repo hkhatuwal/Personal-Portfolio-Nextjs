@@ -11,7 +11,6 @@ export default function DashboardLayout({
                                         }) {
     return (<body className={'bg-white/90'}>
 
-
     <main className={'flex admin'}>
         <SideBar/>
 

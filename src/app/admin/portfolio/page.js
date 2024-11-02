@@ -5,7 +5,6 @@ import PortFolioList from "../../../components/admin/portfolio/PortFolioList";
 const Portfolio = () => {
     return (
         <div>
-
             <div >
                 <PortFolioList/>
             </div>
