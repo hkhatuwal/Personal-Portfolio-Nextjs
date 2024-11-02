@@ -5,13 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/portfolio/trackit.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/admin/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/admin/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/admin/portfolio/PortFolioList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/admin/portfolio/PortFolioList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/front/home/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/front/home/PortfolioItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/PortfolioItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +103,7 @@
       <workItem from="1713074773431" duration="24000" />
       <workItem from="1725597980825" duration="768000" />
       <workItem from="1726381503974" duration="16000" />
-      <workItem from="1730532175056" duration="1923000" />
+      <workItem from="1730532175056" duration="2268000" />
     </task>
     <servers />
   </component>
