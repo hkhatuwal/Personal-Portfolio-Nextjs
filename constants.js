@@ -35,7 +35,7 @@ export const portfolio =
             date: "2023 - Current",
             desc: "Local News app that describes the news in just 60 words like inshorts . Which shows you all news nearby to you ",
             subtitle: "Android/Ios  - Flutter",
-            image: "/images/portfolio/localnewsap.png",
+            image: "/images/portfolio/news_app.gif",
         },
        {
         title: "Pioneer Cares",
