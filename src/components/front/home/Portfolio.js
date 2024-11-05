@@ -39,7 +39,7 @@ const Portfolio = () => {
                 My Portfolio
             </h1>
 
-            <div className="categories flex relative mt-6 gap-2" ref={categoriesContainer}>
+            <div className="categories flex flex-wrap relative mt-6 gap-2" ref={categoriesContainer}>
                 {selectedTabRef && (
                     <div
                         className="absolute bg-primary z-10 rounded-lg p-4 transition-all duration-200 h-full"
