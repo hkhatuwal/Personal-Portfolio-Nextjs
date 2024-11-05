@@ -13,21 +13,30 @@ export const heroItems = [{
 
 
 export const portfolio =
-
     [
         {
             title: "Inventory Management System",
             date: "2023 - Current",
             desc: "Inventory management system is for razererp to manage their inventory",
-            subtitle: "Windows/Mac  - Flutter",
+            subtitle: "Windows/Mac - Flutter",
+            category:'Flutter',
             image: "/images/portfolio/inventory.png",
         },
-
+        {
+            title: "Fully Featured Accounts System ",
+            date: "2024",
+            desc: "Accounting system for malaysia based company in collaboration with malaysian government",
+            subtitle: "Web-Laravel   - Php ",
+            category:'Laravel',
+            image: "/images/portfolio/senangakaun.gif",
+        },
         {
             title: "Trackit Vehicle Tracking System",
             date: "2022 - Current",
             desc: "Mobile App for tracking system using flutter ",
             subtitle: "Android/Ios  - Flutter",
+            category:'Flutter',
+
             image: "/images/portfolio/trackit.gif",
         },
         {
@@ -35,6 +44,8 @@ export const portfolio =
             date: "2023 - Current",
             desc: "Local News app that describes the news in just 60 words like inshorts . Which shows you all news nearby to you ",
             subtitle: "Android/Ios  - Flutter",
+            category:'Flutter',
+
             image: "/images/portfolio/news_app.gif",
         },
        {
@@ -42,24 +53,32 @@ export const portfolio =
         date: "2022 - Previous",
         desc: "App for cable technicians to reward on purchase of the table with coupons",
         subtitle: "Mobile | Tablet - Flutter Mobile App",
+           category:'Flutter',
+
         image: "/images/portfolio/pioneer.png",
     }, {
         title: "Lmprofit Desktop Pos System ",
         date: "2022 - Previous",
         desc: "Pos system with invoice and silent printing for Windows/Mac",
         subtitle: "Windows/Mac - Electron,Vue Js ",
+        category:'Javascript',
+
         image: "/images/portfolio/lmprofit.png",
     }, {
         title: "Lmprofit Web Pos System ",
         date: "2022 - Previous",
         desc: "Pos system with invoice and silent printing for web",
         subtitle: "Web - Laravel ",
+        category:'Laravel',
+
         image: "/images/portfolio/lmprofit_web.png",
     }, {
         title: "Cricket Net",
         date: "2022 - Previous",
         desc: "Cricket Prediction Mobile app with affiliate and news section",
         subtitle: "Android - Java,Kotlin ",
+        category:'Java/Kotlin',
+
         image: "/images/portfolio/cricnet.png",
     },
         {
@@ -67,6 +86,8 @@ export const portfolio =
             date: "2020 - 2021 ",
             desc: "Movies app for playing youtube videos fetch from custom laravel backend",
             subtitle: "Android - Java,Kotlin ",
+            category:'Java/Kotlin',
+
             image: "/images/portfolio/movies_app.png",
         },
         {
@@ -74,10 +95,16 @@ export const portfolio =
             date: "2023 - Current",
             desc: "Nft landing page for a new nft startup",
             subtitle: "Web/Mobile  - Next Js | Tailwind css",
+            category:'Javascript',
             image: "/images/portfolio/nft.png",
         },
+
     ]
 
+export  const categories=[
+    'All',
+    'Flutter','Java/Kotlin','Laravel','Javascript'
+]
 
 export const skills = [
     {
