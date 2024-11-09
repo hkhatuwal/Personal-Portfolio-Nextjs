@@ -84,14 +84,7 @@ export const SmoothScrollProvider = ({children, options}) => {
                         scrub: 3,
                         scrollTrigger: ".skill",
                     });
-                    gsap.from(".skill", {
-                        opacity: 1,
-                        width: 0,
-                        duration: .5,
-                        stagger:.1,
-                        scrub: 3,
-                        scrollTrigger: ".skill",
-                    });
+
                     portfolio.map((item,index)=>{
                         gsap.to(".portfolio-"+index, {
                             opacity: 1,
