@@ -48,6 +48,15 @@ export const portfolio =
 
             image: "/images/portfolio/news_app.gif",
         },
+        {
+            title: "Nearby News App Admin Panel",
+            date: "2023 - Current",
+            desc: "Local News app admin panel to controll all the data along with users with features link blocking,posting,managing users and much more. ",
+            subtitle: "Web-Laravel  - Php",
+            category:'Laravel',
+
+            image: "/images/portfolio/humlocal-admin.png",
+        },
        {
         title: "Pioneer Cares",
         date: "2022 - Previous",
