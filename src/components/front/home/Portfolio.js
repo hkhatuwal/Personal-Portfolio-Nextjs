@@ -41,7 +41,7 @@ const Portfolio = () => {
     }, [selectedTabRef]);
 
     return (
-        <div className="portfolio-section opacity-0 translate-y-24 mt-10" id="portfolio">
+        <div className="portfolio-section  mt-10" id="portfolio">
             <h4 className="text-md lg:text-lg text-primary/75 text-center font-thin uppercase tracking-wider">
                 Over 5+ years of experience
             </h4>

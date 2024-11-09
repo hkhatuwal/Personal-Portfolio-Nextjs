@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/SmoothScrollProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/SmoothScrollProvider.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1730782061779" duration="5354000" />
       <workItem from="1730815252580" duration="4242000" />
       <workItem from="1730962600883" duration="240000" />
-      <workItem from="1731161255349" duration="219000" />
+      <workItem from="1731161255349" duration="596000" />
     </task>
     <servers />
   </component>
