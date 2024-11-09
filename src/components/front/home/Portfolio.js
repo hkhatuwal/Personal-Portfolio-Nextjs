@@ -29,6 +29,16 @@ const Portfolio = () => {
         }
         return 0;
     }, [selectedTabRef]);
+    const backgroundTop = useCallback(() => {
+        if (selectedTabRef && categoriesContainer.current) {
+            return (
+                selectedTabRef.getBoundingClientRect().y -
+                categoriesContainer.current.getBoundingClientRect().y +
+                0
+            );
+        }
+        return 0;
+    }, [selectedTabRef]);
 
     return (
         <div className="portfolio-section opacity-0 translate-y-24 mt-10" id="portfolio">
@@ -39,13 +49,15 @@ const Portfolio = () => {
                 My Portfolio
             </h1>
 
-            <div className="categories flex relative mt-6 gap-2" ref={categoriesContainer}>
+            <div className="categories flex flex-wrap justify-center relative mt-6 gap-2" ref={categoriesContainer}>
                 {selectedTabRef && (
                     <div
-                        className="absolute bg-primary z-10 rounded-lg p-4 transition-all duration-200 h-full"
+                        className="absolute bg-primary z-10 rounded-lg p-4 transition-all duration-200 "
                         style={{
                             width: selectedTabRef.clientWidth,
+                            height: selectedTabRef.clientHeight,
                             left: backgroundLeft(),
+                            top: backgroundTop(),
                         }}
                     />
                 )}
