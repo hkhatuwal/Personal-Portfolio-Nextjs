@@ -21,6 +21,7 @@ const Navbar = () => {
             <ul className="hidden md:flex justify-between items-center gap-10 text-white ">
                 <Link href={"#about"} onClick={() => scrollToItem(event)} className={'hover'}>About</Link>
                 <Link href={"#portfolio"} onClick={() => scrollToItem(event)} className={'hover'}>Portfolio</Link>
+                <Link href={"#services"} onClick={() => scrollToItem(event)} className={'hover'}>Services</Link>
                 <Link href={"#skils"} onClick={() => scrollToItem(event)} className={'hover'}>Skills</Link>
                 <a href={"mailto:contact@devroox.com"} className={'hover'}>Contact Us</a>
 
