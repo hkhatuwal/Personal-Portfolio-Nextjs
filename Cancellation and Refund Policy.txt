@@ -1,0 +1,66 @@
+Cancellation and Refund Policy
+Last Updated: March 25, 2023
+1. Introduction
+This Cancellation and Refund Policy outlines the terms and conditions under which you may cancel services purchased through Devroox and request refunds. By engaging our services, you acknowledge that you have read, understood, and agree to the terms outlined below.
+2. The Merchant of Record Model & Refund Processing
+Devroox operates as an authorized reseller of services provided by UPLEF FZ-LLC, who acts as the Merchant of Record (MoR) for all transactions. This means:
+•The contractual obligation to provide refunds lies with UPLEF FZ-LLC.
+•All refund requests are subject to the approval and processing by UPLEF FZ-LLC.
+•Devroox will act as your facilitator in the refund process with the Merchant of Record.
+3. General Refund Principle
+Due to the custom, digital, and resource-intensive nature of our services, we generally operate on a no-refund policy after services have been rendered or resources have been allocated. However, we are committed to fair treatment and will consider refund requests under the specific circumstances outlined in this policy.
+4. Custom Development & Design Services
+4.1. Before Project Commencement
+•A full refund of any upfront deposit may be granted if a written cancellation request is received before the project kick-off meeting has occurred and before any design or development work has begun.
+4.2. After Project Commencement
+•Once work has commenced, refunds are not available for any completed work or milestones.
+•If a project is terminated by the Client after commencement, Devroox and the MoR will invoice for all work completed up to the point of termination, calculated based on the time-and-materials effort expended at the agreed hourly rate or as per milestones achieved.
+•Any remaining portion of a pre-paid fee may be refunded at the sole discretion of Devroox and the MoR.
+5. Subscription Services (e.g., Website Hosting & Maintenance)
+5.1. Monthly Subscriptions
+•You may cancel your monthly subscription at any time.
+•Cancellation will take effect at the end of your current billing period.
+•No refunds are provided for partial months of service.
+•You will retain access to the services until the end of your paid billing cycle.
+5.2. Annual Subscriptions
+•You may cancel your annual subscription at any time.
+•If you cancel within the first 30 days of your annual subscription, you may request a full refund.
+•After 30 days, no refunds are provided for annual subscriptions.
+•Cancellation will take effect at the end of your annual term; no prorated refunds are given.
+6. Digital Products (One-Time Purchase)
+For one-time purchase digital products (e.g., premium templates, custom plugins, stock assets):
+•Refunds are not typically granted once the digital product has been delivered, downloaded, or the license key has been issued.
+•A refund may be considered only if the product is proven to be technically defective and the issue cannot be resolved through our technical support channels.
+7. Non-Refundable Items & Situations
+Under no circumstances are refunds provided for:
+•Services already rendered and deliverables accepted by the Client.
+•Hours already expended on time-and-materials projects.
+•Domain name registration/renewal fees (as these are paid to and managed by third-party registrars).
+•Third-party service fees (e.g., premium API credits, external software licenses, stock media purchases).
+•A Client's change of mind, dissatisfaction with design aesthetics not related to a breach of the project proposal, or failure to achieve desired business outcomes.
+•Project delays caused by the Client's failure to provide required materials, content, feedback, or access in a timely manner.
+8. How to Request a Cancellation or Refund
+8.1. Subscription Cancellation
+•You can cancel active subscriptions by logging into your client portal or by sending a written request to contact@devroox.com.
+8.2. Refund Request
+•To request a refund, you must submit a formal request in writing by emailing contact@devroox.com.
+•Your request must include:
+•Your full name and business name.
+•The associated invoice number(s).
+•A detailed reason for the refund request.
+We will acknowledge your request within 2 business days and provide a decision after review with the Merchant of Record, typically within 7-10 business days.
+9. Approved Refunds
+If your refund is approved:
+•The refund will be processed to your original method of payment within 10-14 business days.
+•Please note that your bank or payment provider may require additional time to post the refund to your account.
+•Upon refund, your access to the paid services will be revoked.
+10. Policy Modifications
+We reserve the right to amend this Cancellation and Refund Policy at any time. Any changes will be posted on this page with an updated "Last Updated" date.
+11. Contact Us
+For any questions regarding this policy, please contact us at:
+Devroox
+Balaji Prime Villas
+Chitrakoot, Jaipur
+GST: 08PUNDS4792F1CR
+Email: contact@devroox.com
+
