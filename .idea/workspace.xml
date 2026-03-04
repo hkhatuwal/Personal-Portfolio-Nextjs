@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="" />
+    <list default="true" id="93278e2d-687a-451f-a032-b3721bb678f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/(front)/privacy-policy/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(front)/privacy-policy/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/front/home/Portfolio.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
