@@ -1,6 +1,5 @@
 import React from 'react';
 import {SmoothScrollProvider} from "@/context/SmoothScrollProvider";
-import {ModalProvider} from "@/context/ModalProvider";
 import {Inter, Poppins} from 'next/font/google'
 import Navbar from "../../components/front/Navbar";
 import Footer from "../../components/common/Footer";
@@ -21,12 +20,10 @@ export default function RootLayout({
         <html lang="en">
         <body className={`${inter.className} bg-bg container lg:px-20 m-auto `}>
         <SmoothScrollProvider>
-            <ModalProvider>
-                <Navbar/>
-                <main  id="my-scroll">
-                    {children}
-                </main>
-            </ModalProvider>
+            <Navbar/>
+            <main  id="my-scroll">
+                {children}
+            </main>
         </SmoothScrollProvider>
         <Footer/>
         </body>

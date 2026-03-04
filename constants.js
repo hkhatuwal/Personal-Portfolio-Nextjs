@@ -152,45 +152,6 @@ export const skills = [
 ]
 
 
-export const services = [
-    {
-        title: "Web Development",
-        description: "Custom web applications using React, Next.js, and modern frameworks",
-        amount: 500,
-        icon: "🌐"
-    },
-    {
-        title: "Mobile App Development",
-        description: "Cross-platform mobile apps using Flutter for iOS and Android",
-        amount: 800,
-        icon: "📱"
-    },
-    {
-        title: "Backend Development",
-        description: "Robust backend systems using Laravel, PHP, and Node.js",
-        amount: 600,
-        icon: "⚙️"
-    },
-    {
-        title: "Full Stack Development",
-        description: "Complete end-to-end solutions from frontend to backend",
-        amount: 1200,
-        icon: "🚀"
-    },
-    {
-        title: "UI/UX Design",
-        description: "Beautiful and intuitive user interfaces with modern design principles",
-        amount: 300,
-        icon: "🎨"
-    },
-    {
-        title: "API Development",
-        description: "RESTful APIs and GraphQL endpoints for seamless integration",
-        amount: 400,
-        icon: "🔗"
-    }
-]
-
 export const adminMenuItems = [
     {
         title: "Dashboard",
