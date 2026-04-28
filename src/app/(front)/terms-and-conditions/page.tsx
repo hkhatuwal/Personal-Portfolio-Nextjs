@@ -32,9 +32,9 @@ export default function TermsAndConditionsPage() {
 						Chitrakoot, Jaipur (GST: 08PUNDS4792F1CR).
 					</li>
 					<li>
-						<strong>"Service Provider" or "MoR":</strong> UPLEF FZ-LLC, the principal provider
+						<strong>"Service Provider" or "MoR":</strong> , the principal provider
 						of the underlying technical infrastructure, software, and development services.
-						UPLEF FZ-LLC is the Merchant of Record (MoR).
+						 is the Merchant of Record (MoR).
 					</li>
 					<li>
 						<strong>"Services":</strong> The IT and digital services offered by Devroox,
@@ -44,10 +44,10 @@ export default function TermsAndConditionsPage() {
 					<li>
 						<strong>"Merchant of Record (MoR)":</strong> The legally recognized entity selling
 						the Services to you. The Merchant of Record for all Services sold through Devroox is
-						UPLEF FZ-LLC.
+						.
 					</li>
 					<li>
-						<strong>"Invoice":</strong> The legally binding digital invoice issued by UPLEF
+						<strong>"Invoice":</strong> The legally binding digital invoice issued by
 						FZ-LLC as the Merchant of Record.
 					</li>
 					<li>
@@ -61,9 +61,9 @@ export default function TermsAndConditionsPage() {
 				<h2 className="text-xl font-semibold">3. The Merchant of Record Model and Your Direct Contract</h2>
 				<h3 className="text-lg font-medium">3.1. Acknowledgment of MoR Structure</h3>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>The contractual sale of the Services is a direct relationship between you and UPLEF FZ-LLC as the Merchant of Record (MoR).</li>
+					<li>The contractual sale of the Services is a direct relationship between you and  as the Merchant of Record (MoR).</li>
 					<li>Devroox acts as an independent reseller and your primary point of contact, facilitating the sale and providing project management.</li>
-					<li>The legally binding contract for the Services is comprised of (i) these Terms, and (ii) the End User License Agreement / Terms of Service ("EULA/ToS") of UPLEF FZ-LLC, which you will be required to accept prior to service commencement.</li>
+					<li>The legally binding contract for the Services is comprised of (i) these Terms, and (ii) the End User License Agreement / Terms of Service ("EULA/ToS") of , which you will be required to accept prior to service commencement.</li>
 				</ul>
 				<h3 className="text-lg font-medium">3.2. Implications of the MoR Model</h3>
 				<ul className="list-disc pl-6 space-y-2">
@@ -105,8 +105,8 @@ export default function TermsAndConditionsPage() {
 				<h3 className="text-lg font-medium">6.1. Invoice Generation</h3>
 				<p>
 					All payments for Services will be processed through the MoR framework. Devroox will
-					facilitate the creation of a digital Invoice through UPLEF FZ-LLC's system. This Invoice
-					is issued by UPLEF FZ-LLC as the MoR.
+					facilitate the creation of a digital Invoice through 's system. This Invoice
+					is issued by  as the MoR.
 				</p>
 				<h3 className="text-lg font-medium">6.2. Payment Terms</h3>
 				<p>
@@ -125,7 +125,7 @@ export default function TermsAndConditionsPage() {
 				<h2 className="text-xl font-semibold">7. Intellectual Property Rights</h2>
 				<h3 className="text-lg font-medium">7.1. Service Provider IP</h3>
 				<p>
-					UPLEF FZ-LLC retains all right, title, and interest in and to its pre-existing
+					 retains all right, title, and interest in and to its pre-existing
 					software, platforms, technologies, source code, and all related intellectual property.
 				</p>
 				<h3 className="text-lg font-medium">7.2. Your IP</h3>
@@ -137,7 +137,7 @@ export default function TermsAndConditionsPage() {
 				<p>
 					Upon full payment of all fees due, you will receive a perpetual, non-exclusive license
 					to use the final deliverables as defined in the Project Proposal and EULA/ToS. Ownership
-					of the underlying code and platform remains with UPLEF FZ-LLC.
+					of the underlying code and platform remains with .
 				</p>
 			</section>
 

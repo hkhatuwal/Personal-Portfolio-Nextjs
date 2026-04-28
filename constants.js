@@ -31,6 +31,14 @@ export const portfolio =
             image: "/images/portfolio/senangakaun.gif",
         },
         {
+            title: "AI Receipt Processor Add-on",
+            date: "2025 - 2026",
+            desc: "AI-powered receipt processor add-on for SenangAkaun that reads receipt images, extracts expense data automatically, and posts it directly into the existing accounting system.",
+            subtitle: "AI Service  - Next Js | API",
+            category:'Ai',
+            image: "/images/portfolio/ai_processor.png",
+        },
+        {
             title: "Trackit Vehicle Tracking System",
             date: "2022 - Current",
             desc: "Mobile App for tracking system using flutter ",
@@ -112,7 +120,7 @@ export const portfolio =
 
 export  const categories=[
     'All',
-    'Flutter','Java/Kotlin','Laravel','Javascript'
+    'Flutter','Java/Kotlin','Laravel','Javascript','Ai'
 ]
 
 export const skills = [

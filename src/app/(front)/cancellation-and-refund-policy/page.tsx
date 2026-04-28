@@ -20,9 +20,9 @@ export default function CancellationAndRefundPolicyPage() {
       <section className="mt-8 space-y-2">
         <h2 className="text-xl font-semibold">2. The Merchant of Record Model &amp; Refund Processing</h2>
         <ul className="list-disc pl-6 space-y-2">
-          <li>Devroox operates as an authorized reseller of services provided by UPLEF FZ-LLC, who acts as the Merchant of Record (MoR) for all transactions.</li>
-          <li>The contractual obligation to provide refunds lies with UPLEF FZ-LLC.</li>
-          <li>All refund requests are subject to the approval and processing by UPLEF FZ-LLC.</li>
+          <li>Devroox operates as an authorized reseller of services provided by  who acts as the Merchant of Record (MoR) for all transactions.</li>
+          <li>The contractual obligation to provide refunds lies with </li>
+          <li>All refund requests are subject to the approval and processing by </li>
           <li>Devroox will act as your facilitator in the refund process with the Merchant of Record.</li>
         </ul>
       </section>

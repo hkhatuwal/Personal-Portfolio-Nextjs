@@ -3,7 +3,7 @@
 import { portfolio, categories } from "../../../../constants";
 import Divider from "src/components/common/Divider";
 import Image from "next/image";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 const Portfolio = () => {
     const [selectedCategory, setSelectedCategory] = useState("All");
@@ -40,6 +40,13 @@ const Portfolio = () => {
         return 0;
     }, [selectedTabRef]);
 
+    const orderedCategories = useMemo(() => {
+        const others = categories.filter(
+            (c) => c !== "All" && c !== "Ai"
+        );
+        return ["All", "Ai", ...others];
+    }, []);
+
     const filteredPortfolio = portfolio.filter(
         (item) => item.category === selectedCategory || selectedCategory === "All"
     );
@@ -71,7 +78,7 @@ const Portfolio = () => {
                         }}
                     />
                 )}
-                {categories.map((item, index) => (
+                {orderedCategories.map((item, index) => (
                     <div className="relative" key={index}>
                         <button
                             ref={index === 0 ? firstTabRef : null}
@@ -80,7 +87,11 @@ const Portfolio = () => {
                                 setSelectedTabRef(e.currentTarget);
                             }}
                             className={`rounded-xl px-5 py-2.5 text-sm sm:text-base text-white z-50 relative transition-colors duration-200 ${
-                                item === selectedCategory ? "border-transparent" : "text-white/70 hover:text-white"
+                                item === selectedCategory
+                                    ? "border-transparent"
+                                    : item === "Ai"
+                                    ? "text-primary font-semibold"
+                                    : "text-white/70 hover:text-white"
                             }`}
                         >
                             {item}

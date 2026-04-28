@@ -3,9 +3,9 @@ Last Updated: March 25, 2023
 1. Introduction
 This Cancellation and Refund Policy outlines the terms and conditions under which you may cancel services purchased through Devroox and request refunds. By engaging our services, you acknowledge that you have read, understood, and agree to the terms outlined below.
 2. The Merchant of Record Model & Refund Processing
-Devroox operates as an authorized reseller of services provided by UPLEF FZ-LLC, who acts as the Merchant of Record (MoR) for all transactions. This means:
-•The contractual obligation to provide refunds lies with UPLEF FZ-LLC.
-•All refund requests are subject to the approval and processing by UPLEF FZ-LLC.
+Devroox operates as an authorized reseller of services provided by , who acts as the Merchant of Record (MoR) for all transactions. This means:
+•The contractual obligation to provide refunds lies with .
+•All refund requests are subject to the approval and processing by .
 •Devroox will act as your facilitator in the refund process with the Merchant of Record.
 3. General Refund Principle
 Due to the custom, digital, and resource-intensive nature of our services, we generally operate on a no-refund policy after services have been rendered or resources have been allocated. However, we are committed to fair treatment and will consider refund requests under the specific circumstances outlined in this policy.

@@ -30,9 +30,9 @@ export default function PrivacyPolicyPage() {
 						marketing, and project communication.
 					</li>
 					<li>
-						<strong>UPLEF FZ-LLC (Service Provider/Merchant of Record):</strong> The
+						<strong> (Service Provider/Merchant of Record):</strong> The
 						ultimate provider of technical services and the Merchant of Record (MoR).
-						UPLEF FZ-LLC acts as the primary Data Fiduciary for transaction data and
+						 acts as the primary Data Fiduciary for transaction data and
 						service delivery.
 					</li>
 					<li>
@@ -106,8 +106,8 @@ export default function PrivacyPolicyPage() {
 
 			<section className="mt-8 space-y-4">
 				<h2 className="text-xl font-semibold">6. Information Sharing and Disclosure</h2>
-				<h3 className="text-lg font-medium">6.1. With Our Service Provider (UPLEF FZ-LLC)</h3>
-				<p>We share necessary information with UPLEF FZ-LLC as required for:</p>
+				<h3 className="text-lg font-medium">6.1. With Our Service Provider ()</h3>
+				<p>We share necessary information with  as required for:</p>
 				<ul className="list-disc pl-6 space-y-2">
 					<li>Service delivery and technical implementation</li>
 					<li>Payment processing and invoicing as Merchant of Record</li>
@@ -183,7 +183,7 @@ export default function PrivacyPolicyPage() {
 				<h2 className="text-xl font-semibold">11. International Data Transfers</h2>
 				<p>Your personal data may be transferred to and processed in:</p>
 				<ul className="list-disc pl-6 space-y-2">
-					<li>United Arab Emirates: Where UPLEF FZ-LLC is based</li>
+					<li>United Arab Emirates: Where  is based</li>
 					<li>United States: Where some service providers operate</li>
 					<li>Other jurisdictions: As required for service delivery</li>
 				</ul>
@@ -235,11 +235,7 @@ export default function PrivacyPolicyPage() {
 				<p className="mt-4">
 					<strong>Service Provider Contact:</strong>
 					<br />
-					UPLEF FZ-LLC
-					<br />
-					Email: <a className="text-blue-400 hover:underline" href="mailto:privacy@uplef.com">privacy@uplef.com</a>
-					<br />
-					Address: Compass Building, Al Shohada Road, Al Hamra Industrial Zone-FZ, Ras Al Khaimah, UAE
+					
 				</p>
 			</section>
 		</main>
