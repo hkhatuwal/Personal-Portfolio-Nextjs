@@ -13,7 +13,9 @@ const Skills = () => {
 
 
             <div className='skills w-full mt-10'>
-                {skills.map((skill)=><SkillItem {...skill}/>)}
+                {skills.map((skill) => (
+                    <SkillItem key={skill.title} {...skill} />
+                ))}
 
             </div>
             <Divider/>

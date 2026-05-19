@@ -6,6 +6,9 @@ import Footer from "../../components/common/Footer";
 const inter = Poppins({subsets: ['latin'], weight: "400"})
 
 export const metadata = {
+    metadataBase: new URL(
+        process.env.NEXT_PUBLIC_SITE_URL ?? 'https://devroox.com'
+    ),
     title: 'Devroox',
     description: 'Website and Mobile app developmentt',
     openGraph: {

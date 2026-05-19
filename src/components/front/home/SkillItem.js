@@ -2,7 +2,7 @@ import React from 'react';
 
 const SkillItem = ({title, percent, fromColor, toColor}) => {
     return (
-        <div key={title} className={'py-2'}>
+        <div className={'py-2'}>
             <div className={'flex justify-between'}>
                 <h3 className={'text-white/60 py-1 uppercase tracking-wider text-xs'}>{title}</h3>
                 <h3 className={'text-white/60 py-1 uppercase tracking-wider text-xs'}>{percent}%</h3>

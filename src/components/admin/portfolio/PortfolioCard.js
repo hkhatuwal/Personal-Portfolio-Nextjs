@@ -15,12 +15,6 @@ const PortfolioCard = ({title, description,image,onEditClick}) => {
     return (
         <div className="portfolio relative shadow sm:w-full md:w-4/12 lg:w-2/12  max-h-82  rounded p-5 flex flex-col">
 
-
-
-
-
-
-
             <Image src={image} className={'w-full h-[150px] object-cover'} width={1000} height={1000} alt={"ai"}/>
 
             <h2 className={'text-dark font-semibold mt-3 '}>{title}</h2>
