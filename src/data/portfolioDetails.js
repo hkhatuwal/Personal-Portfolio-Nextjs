@@ -260,5 +260,6 @@ export function mergeProjectData(project) {
             "Delivered on schedule with production quality",
             "Maintainable codebase for long-term growth",
         ],
+        screenshots: project.screenshots ?? [],
     };
 }

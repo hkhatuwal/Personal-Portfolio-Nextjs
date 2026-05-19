@@ -37,6 +37,13 @@ function ProjectContentGrid({ project, related, shareUrl }) {
     return (
         <div className="mt-10 grid grid-cols-1 lg:grid-cols-3 gap-10">
             <div className="lg:col-span-2 space-y-10">
+                {project.screenshots?.length > 0 && (
+                    <ProjectScreenshots
+                        screenshots={project.screenshots}
+                        title={project.title}
+                    />
+                )}
+
                 <section className={cardClass}>
                     <h2 className="text-sm uppercase tracking-[0.2em] text-primary font-light mb-4">
                         Project Overview
@@ -114,6 +121,38 @@ function TechStackCard({ project }) {
     );
 }
 
+function ProjectScreenshots({ screenshots, title }) {
+    return (
+        <section>
+            <h2 className="text-2xl font-bold text-[#c4cfde] mb-6">
+                Screenshots & Preview
+            </h2>
+            <div
+                className={`grid gap-4 ${
+                    screenshots.length === 1
+                        ? "grid-cols-1"
+                        : "grid-cols-1 sm:grid-cols-2"
+                }`}
+            >
+                {screenshots.map((src, i) => (
+                    <div
+                        key={`${src}-${i}`}
+                        className="relative overflow-hidden rounded-2xl border border-white/10 bg-[#212428] aspect-video"
+                    >
+                        <Image
+                            src={src}
+                            alt={`${title} screenshot ${i + 1}`}
+                            fill
+                            className="object-contain p-2"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                        />
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+}
+
 function ProjectHero({ project }) {
     return (
         <div className="relative h-[280px] sm:h-[380px] lg:h-[440px] w-full">
@@ -122,11 +161,11 @@ function ProjectHero({ project }) {
                 alt={project.title}
                 fill
                 priority
-                className="object-fill"
+                className="object-cover"
                 sizes="100vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#212428] via-[#212428]/90 to-[#212428]/20" />
-            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 bg-gradient-to-t from-[#212428] to-transparent pt-16">
+            <div className="absolute inset-0 bg-gradient-to-t from-[#212428] via-[#212428]/40 to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-10 bg-gradient-to-t from-[#212428]/95 via-[#212428]/70 to-transparent pt-20">
                 <div className="flex flex-wrap items-center gap-3 mb-4">
                     <span className="text-xs uppercase tracking-wider text-primary bg-primary/20 border border-primary/50 rounded-full px-3 py-1 font-medium">
                         {project.category}

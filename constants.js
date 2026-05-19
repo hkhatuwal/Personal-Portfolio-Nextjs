@@ -12,6 +12,7 @@ export const heroItems = [{
 }]
 
 
+/** Optional `screenshots` array per project — paths under public/images/portfolio */
 export const portfolio =
     [
         {
@@ -21,7 +22,12 @@ export const portfolio =
             desc: "A modern fintech platform built for secure OTC trading, digital asset management, and NFT purchases. Developed with Laravel, Vue.js, and MySQL, the platform provides real-time portfolio tracking, currency exchange, asset transfers, and enterprise-grade transaction management through a clean and scalable architecture.",
             subtitle: "OTC Trading & NFT Marketplace · Web · Laravel, Vue.js",
             category: "Laravel",
-            image: "/images/portfolio/adlefportal.png",
+            image: "/images/portfolio/adlefportal/1.png",
+            screenshots: [
+                "/images/portfolio/adlefportal/1.png",
+                "/images/portfolio/adlefportal/asset-transfer.png",
+                "/images/portfolio/adlefportal/dashboard.png",
+            ],
             demoUrl: "https://adlefgroup.com",
         },
         {
@@ -41,6 +47,10 @@ export const portfolio =
             subtitle: "Accounting Platform · Web · Laravel, PHP",
             category:'Laravel',
             image: "/images/portfolio/senangakaun.png",
+            screenshots: [
+                "/images/portfolio/senangakaun.png",
+                "/images/portfolio/senangakaun.gif",
+            ],
             demoUrl: "https://senangakaun.com",
         },
         {
@@ -61,6 +71,10 @@ export const portfolio =
             subtitle: "Bank Reconciliation · Web · Laravel, AI",
             category: "Ai",
             image: "/images/portfolio/senangakaun-airecon.png",
+            screenshots: [
+                "/images/portfolio/senangakaun-airecon.png",
+                "/images/portfolio/senangakaun/reconai.png",
+            ],
             demoUrl: "https://senangakaun.com",
         },
         {
